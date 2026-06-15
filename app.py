@@ -26,7 +26,7 @@ if resim:
             img = Image.open(resim)
             
             # Gemini zekasını çağırıyoruz
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-1.5-flash-latest')
             
             # Gemini'ye verdiğimiz kesin talimat (Prompt)
             prompt = """
